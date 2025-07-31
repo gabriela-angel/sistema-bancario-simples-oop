@@ -28,14 +28,6 @@ Este sistema simula operações bancárias simples por meio de um menu de termin
 - Cada saque tem um limite máximo de **R$ 500,00**.
 - O extrato mostra todas as movimentações financeiras e o saldo atual da conta.
 
-## 🧱 Arquitetura do Código
-
-- `Cliente` (classe base) e `PessoaFisica` (subclasse)
-- `Conta` (classe base) e `ContaCorrente` (subclasse)
-- `Transacao` (classe abstrata), `Deposito` e `Saque` (subclasses concretas)
-- `Historico` registra todas as transações de uma conta
-- Operações bancárias são registradas por meio da abstração `Transacao.registrar()`
-
 ## 🧾 Exemplo de Uso
 
 ```text
