@@ -1,8 +1,3 @@
-# Add classes paa cliente e operações bancárias (deposito e saque)
-# Atualizar o sistema para armazenar os dados de clientes e contas bancárias em objetos ao invés de dicionarios.
-# Deve seguir o modelo de classes UML (imagem)
-# Atualizar metodos que tratam as opcoes do menu, para funcionarem com classes modeladas
-
 import textwrap
 from abc import ABC, abstractmethod
 
